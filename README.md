@@ -7,6 +7,7 @@
 - وردپرس ۶٫۰ به بالا (روی ۷٫۱ آزمایش شده)، PHP ۷٫۴ تا ۸٫۴
 - سازگار با ووکامرس (اختیاری)، ویرایشگر بلوکی و ویرایشگر کلاسیک
 - مجوز: GPL-2.0-or-later
+- صفحهٔ معرفی: [netarz.ir/ai-api/wordpress](https://netarz.ir/ai-api/wordpress?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress) · راهنمای کامل نصب و تنظیم: [netarz.ir/docs/ai/wordpress](https://netarz.ir/docs/ai/wordpress?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress)
 
 ## چه امکاناتی دارد
 
@@ -85,5 +86,7 @@
 **NetArz AI for WordPress** adds an AI live-support chat with human handoff, a full support-ticket system, and AI writing tools (articles, rewriting, SEO meta, WooCommerce product copy, images, alt text, comment replies) to any WordPress site. All AI requests go server-side to the [NetArz AI gateway](https://netarz.ir/ai-api) (OpenAI-compatible) and are billed to your NetArz credit — the API key never reaches the browser.
 
 Requirements: WordPress 6.0+, PHP 7.4–8.4. WooCommerce optional. License: GPL-2.0-or-later.
+
+Landing page: https://netarz.ir/ai-api/wordpress?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress — full guide (Persian): https://netarz.ir/docs/ai/wordpress?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress
 
 Install: activate the plugin, create a project key at [netarz.ir/ai](https://netarz.ir/ai), paste it in **AI → Settings**, then enable the chat widget.
