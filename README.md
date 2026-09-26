@@ -9,6 +9,20 @@
 - مجوز: GPL-2.0-or-later
 - صفحهٔ معرفی: [netarz.ir/ai-api/wordpress](https://netarz.ir/ai-api/wordpress?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress) · راهنمای کامل نصب و تنظیم: [netarz.ir/docs/ai/wordpress](https://netarz.ir/docs/ai/wordpress?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress)
 
+## نمای افزونه
+
+| صندوق گفت‌وگو در پیشخوان | ویجت چت روی موبایل |
+|---|---|
+| ![صندوق گفت‌وگو: گفت‌وگوی سپرده‌شده به همکار با علتش](.github/screenshots/admin-inbox.webp) | ![ویجت چت روی موبایل](.github/screenshots/chat-widget-phone.webp) |
+
+| تیکت با پیش‌نویس و خلاصهٔ هوشمند | پیشخوان اعتبار و مصرف |
+|---|---|
+| ![صفحهٔ تیکت در پیشخوان با پیش‌نویس هوش مصنوعی](.github/screenshots/admin-ticket.webp) | ![پیشخوان اعتبار نِت اَرز و نمودار مصرف](.github/screenshots/admin-dashboard.webp) |
+
+| تیکت از نگاه مشتری | دستیار نویسنده در ویرایشگر |
+|---|---|
+| ![صفحهٔ پیگیری تیکت برای مشتری](.github/screenshots/customer-ticket.webp) | ![جعبهٔ دستیار هوشمند در ویرایشگر وردپرس](.github/screenshots/editor-writer.webp) |
+
 ## چه امکاناتی دارد
 
 ### ۱. چت پشتیبانی آنلاین با دستیار هوشمند
