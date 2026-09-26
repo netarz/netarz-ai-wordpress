@@ -1,0 +1,69 @@
+/* NetArz AI — customer ticket pages ([netarz_ai_tickets] and the WooCommerce "Support" tab). */
+.nzai-tk { --nzai-accent: #f5b301; --nzai-ink: #1f2937; --nzai-muted: #6b7280; --nzai-line: #e5e7eb; direction: rtl; text-align: right; color: var(--nzai-ink); line-height: 1.9; }
+.nzai-tk *, .nzai-tk *::before, .nzai-tk *::after { box-sizing: border-box; }
+.nzai-tk h3 { margin: 0 0 12px; font-size: 1.2em; }
+.nzai-tk-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+.nzai-tk-head h3 { margin: 0; }
+.nzai-tk-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 8px 20px; border: 0; border-radius: 12px; background: var(--nzai-accent); color: #1a1a2e !important; font: inherit; font-weight: 800; text-decoration: none !important; cursor: pointer; transition: filter .15s ease, transform .15s ease; }
+.nzai-tk-btn:hover { filter: brightness(1.05); }
+.nzai-tk-btn:active { transform: scale(.98); }
+.nzai-tk-btn.is-ghost { background: transparent; border: 1px solid var(--nzai-line); color: var(--nzai-ink) !important; }
+.nzai-tk-link { border: 0; background: none; padding: 0; color: var(--nzai-muted); text-decoration: underline; cursor: pointer; font: inherit; font-size: .9em; }
+.nzai-tk-alert { padding: 10px 14px; border-radius: 12px; background: #f1f5f9; margin: 0 0 14px; animation: nzai-tk-in .25s ease; }
+.nzai-tk-alert.is-success { background: #ecfdf5; color: #065f46; }
+.nzai-tk-alert.is-error { background: #fef2f2; color: #991b1b; }
+.nzai-tk-empty { padding: 28px; text-align: center; border: 1px dashed var(--nzai-line); border-radius: 14px; color: var(--nzai-muted); }
+.nzai-tk-list { list-style: none; margin: 0; padding: 0; border: 1px solid var(--nzai-line); border-radius: 14px; overflow: hidden; }
+.nzai-tk-list li { margin: 0; border-bottom: 1px solid var(--nzai-line); }
+.nzai-tk-list li:last-child { border: 0; }
+.nzai-tk-list a { display: grid; grid-template-columns: auto 1fr auto auto; gap: 12px; align-items: center; padding: 12px 14px; color: inherit; text-decoration: none; transition: background .12s ease; }
+.nzai-tk-list a:hover { background: #fafafa; }
+.nzai-tk-list a.is-new .nzai-tk-subject { font-weight: 800; }
+.nzai-tk-no { color: var(--nzai-muted); font-size: .85em; }
+.nzai-tk-subject { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.nzai-tk-date { color: var(--nzai-muted); font-size: .85em; white-space: nowrap; }
+.nzai-tk-status { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: .8em; font-weight: 700; background: #f1f5f9; white-space: nowrap; }
+.nzai-tk-status.is-open, .nzai-tk-status.is-customer_reply { background: #fef3c7; color: #92400e; }
+.nzai-tk-status.is-answered { background: #dcfce7; color: #166534; }
+.nzai-tk-status.is-on_hold { background: #e0e7ff; color: #3730a3; }
+.nzai-tk-form { margin: 0 0 18px; }
+.nzai-tk-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0 14px; }
+.nzai-tk-field { margin: 0 0 12px; }
+.nzai-tk-field label { display: block; margin-bottom: 4px; font-weight: 700; font-size: .9em; }
+.nzai-tk-field .req { color: #e11d48; }
+.nzai-tk-field input[type="text"], .nzai-tk-field input[type="email"], .nzai-tk-field input[type="tel"], .nzai-tk-field select, .nzai-tk-field textarea { width: 100%; max-width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 12px; font: inherit; font-size: 16px; background: #fff; color: inherit; }
+.nzai-tk-field input:focus, .nzai-tk-field select:focus, .nzai-tk-field textarea:focus { outline: none; border-color: var(--nzai-accent); box-shadow: 0 0 0 3px rgba(245, 179, 1, .2); }
+.nzai-tk-field small { display: block; color: var(--nzai-muted); margin-top: 4px; font-size: .8em; }
+.nzai-tk-hp { position: absolute !important; left: -9999px !important; width: 1px; height: 1px; opacity: 0; }
+.nzai-tk-back { margin: 0 0 10px; }
+.nzai-tk-back a { text-decoration: none; }
+.nzai-tk-ticket-head { margin-bottom: 14px; }
+.nzai-tk-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0; color: var(--nzai-muted); font-size: .9em; }
+.nzai-tk-thread { display: flex; flex-direction: column; gap: 12px; margin-bottom: 18px; }
+.nzai-tk-msg { padding: 12px 16px; border: 1px solid var(--nzai-line); border-radius: 16px; background: #fff; animation: nzai-tk-in .25s ease; }
+.nzai-tk-msg.is-staff { background: #fffbeb; border-color: #fde68a; }
+.nzai-tk-msg header { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 6px; }
+.nzai-tk-msg time { margin-right: auto; color: var(--nzai-muted); font-size: .8em; }
+.nzai-tk-badge { padding: 0 8px; border-radius: 999px; background: var(--nzai-accent); color: #1a1a2e; font-size: .75em; font-weight: 800; }
+.nzai-tk-body p { margin: 0 0 8px; }
+.nzai-tk-body a { word-break: break-all; }
+.nzai-tk-files { margin: 8px 0 0; padding: 0 18px 0 0; font-size: .9em; }
+.nzai-tk-sys { text-align: center; color: var(--nzai-muted); font-size: .85em; margin: 0; }
+.nzai-tk-inline { margin: -6px 0 18px; }
+.nzai-tk-rate { padding: 14px; border: 1px solid var(--nzai-line); border-radius: 14px; }
+.nzai-tk-stars { display: inline-flex; flex-direction: row-reverse; gap: 2px; direction: ltr; margin: 0 0 8px; }
+.nzai-tk-stars input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.nzai-tk-stars label { font-size: 30px; line-height: 1; color: #d1d5db; cursor: pointer; transition: color .12s ease, transform .12s ease; }
+.nzai-tk-stars label:hover, .nzai-tk-stars label:hover ~ label, .nzai-tk-stars input:checked ~ label { color: #f59e0b; }
+.nzai-tk-stars input:focus-visible + label { outline: 2px solid var(--nzai-accent); border-radius: 4px; }
+.nzai-tk-lookup { margin-top: 18px; padding: 12px 14px; border: 1px solid var(--nzai-line); border-radius: 14px; }
+.nzai-tk-lookup summary { cursor: pointer; font-weight: 700; }
+.nzai-tk-lookup .nzai-tk-form { margin: 12px 0 0; }
+@keyframes nzai-tk-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (max-width: 600px) {
+	.nzai-tk-list a { grid-template-columns: 1fr auto; }
+	.nzai-tk-no, .nzai-tk-date { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+	.nzai-tk * { animation: none !important; transition: none !important; }
+}

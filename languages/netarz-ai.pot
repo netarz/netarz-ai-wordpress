@@ -1,0 +1,2646 @@
+# Copyright (C) 2026 NetArz
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: NetArz AI — هوش مصنوعی نِت اَرز 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/netarz-ai-wordpress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-27T01:11:23+08:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: netarz-ai\n"
+
+#. Plugin Name of the plugin
+#: netarz-ai.php
+msgid "NetArz AI — هوش مصنوعی نِت اَرز"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: netarz-ai.php
+msgid "https://netarz.ir/ai-api"
+msgstr ""
+
+#. Description of the plugin
+#: netarz-ai.php
+msgid "چت پشتیبانی هوشمند، تیکتینگ حرفه‌ای، نویسندهٔ محتوا، ساخت تصویر و ابزارهای هوش مصنوعی برای وردپرس — همه با یک کلید API نِت اَرز."
+msgstr ""
+
+#. Author of the plugin
+#: netarz-ai.php
+msgid "NetArz"
+msgstr ""
+
+#. Author URI of the plugin
+#: netarz-ai.php
+msgid "https://netarz.ir"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:51
+#: includes/class-netarz-ai-admin.php:259
+#: includes/class-netarz-ai-admin.php:432
+#: includes/class-netarz-ai-privacy.php:123
+msgid "هوش مصنوعی نِت اَرز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:52
+#: includes/class-netarz-ai-admin.php:1141
+#: includes/class-netarz-ai-writer.php:887
+msgid "هوش مصنوعی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:60
+msgid "پیشخوان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:62
+#: includes/class-netarz-ai-admin.php:455
+#: includes/class-netarz-ai-privacy.php:53
+msgid "گفت‌وگوهای آنلاین"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:62
+msgid "گفت‌وگوها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:65
+msgid "تیکت‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:68
+#: includes/class-netarz-ai-admin.php:839
+msgid "نویسندهٔ هوشمند"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:69
+#: includes/class-netarz-ai-admin.php:896
+#: includes/class-netarz-ai-admin.php:983
+msgid "ساخت تصویر"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:71
+#: includes/class-netarz-ai-admin.php:916
+msgid "گزارش مصرف"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:72
+#: includes/class-netarz-ai-admin.php:81
+#: includes/class-netarz-ai-writer.php:774
+msgid "تنظیمات"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:116
+#: includes/class-netarz-ai-chat.php:195
+#: includes/class-netarz-ai-writer.php:852
+msgid "در حال نوشتن…"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:117
+#: includes/class-netarz-ai-admin.php:158
+#: includes/class-netarz-ai-writer.php:869
+msgid "خطا"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:118
+msgid "این تیکت و همهٔ پیوست‌هایش برای همیشه حذف شود؟"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:119
+msgid "متن فعلی پاسخ جایگزین شود؟"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:127
+#: includes/class-netarz-ai-admin.php:527
+#: includes/class-netarz-ai-admin.php:946
+msgid "همه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:128
+msgid "منتظر همکار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:129
+#: includes/class-netarz-ai-tickets.php:45
+msgid "باز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:130
+#: includes/class-netarz-ai-admin.php:526
+#: includes/class-netarz-ai-tickets.php:49
+#: includes/class-netarz-ai-tickets.php:60
+msgid "بسته"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:131
+msgid "جست‌وجو در نام، تماس یا متن…"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:132
+msgid "گفت‌وگویی نیست."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:133
+msgid "یک گفت‌وگو را از فهرست انتخاب کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:134
+msgid "پاسخ شما… (Enter ارسال، Shift+Enter خط تازه)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:135
+#: includes/class-netarz-ai-chat.php:193
+msgid "ارسال"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:136
+msgid "دستیار روشن"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:137
+msgid "دستیار خاموش"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:138
+msgid "دستیار در تنظیمات خاموش است"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:139
+msgid "بستن گفت‌وگو"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:140
+msgid "باز کردن دوباره"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:141
+msgid "تبدیل به تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:142
+msgid "دیدن تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:143
+msgid "حذف"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:144
+msgid "این گفت‌وگو برای همیشه حذف شود؟"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:145
+msgid "پیشنهاد پاسخ"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:146
+msgid "در حال نوشتن پیشنهاد…"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:147
+#: includes/class-netarz-ai-chat.php:702
+#: includes/class-netarz-ai-chat.php:797
+#: includes/class-netarz-ai-chat.php:854
+msgid "بازدیدکننده"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:148
+msgid "دستیار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:149
+msgid "همکار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:150
+msgid "روی صفحه است"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:151
+msgid "بیرون از صفحه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:152
+msgid "علت سپردن به همکار:"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:153
+msgid "صفحه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:154
+#: includes/class-netarz-ai-admin.php:1043
+msgid "شروع"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:155
+#: includes/class-netarz-ai-admin.php:702
+msgid "امتیاز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:156
+msgid "بیشتر"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:157
+#: includes/class-netarz-ai-chat.php:207
+msgid "دیده شد"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:159
+msgid "پیام تازه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:160
+msgid "بازگشت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:161
+msgid "حساب کاربری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:180
+msgid "برای فعال شدن امکانات هوش مصنوعی، کلید API نِت اَرز را وارد کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:182
+msgid "وارد کردن کلید"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:196
+msgid "هوش مصنوعی نِت اَرز:"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:197
+msgid "اعتبار تمام شده و دستیار نمی‌تواند جواب بدهد."
+msgstr ""
+
+#. translators: %s: balance
+#: includes/class-netarz-ai-admin.php:199
+#, php-format
+msgid "اعتبار رو به اتمام است (%s)."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:203
+#: includes/class-netarz-ai-admin.php:305
+msgid "افزایش اعتبار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:205
+msgid "تا فردا نشان نده"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:233
+msgid "همهٔ درخواست‌های هوش مصنوعی از سرور سایت شما مستقیم به وب‌سرویس نِت اَرز می‌رود؛ کلید API هرگز به مرورگر بازدیدکننده نمی‌رسد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:259
+msgid "چت پشتیبانی، تیکتینگ و ابزارهای محتوا — با اعتبار حساب نِت اَرز شما."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:269
+msgid "اعتبار هوش مصنوعی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:271
+msgid "هنوز به حساب نِت اَرز وصل نشده‌اید."
+msgstr ""
+
+#. translators: %s: link
+#: includes/class-netarz-ai-admin.php:274
+#, php-format
+msgid "در %s ثبت‌نام کنید و اعتبار بخرید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:276
+msgid "یک پروژه و یک کلید API بسازید (کلید با sk-ntz-v1- شروع می‌شود)."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:276
+msgid "کلید را در تنظیمات افزونه وارد کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:278
+msgid "وارد کردن کلید API"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:282
+msgid "دوباره امتحان کنید"
+msgstr ""
+
+#. translators: %s: toman amount
+#: includes/class-netarz-ai-admin.php:289
+#, php-format
+msgid "حدود %s تومان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:292
+msgid "پروژه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:295
+msgid "کلید"
+msgstr ""
+
+#. translators: 1: spent, 2: limit
+#: includes/class-netarz-ai-admin.php:299
+msgid "سقف هزینهٔ کلید"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:302
+msgid "سقف درخواست در دقیقه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:306
+msgid "پنل نِت اَرز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:307
+msgid "به‌روزرسانی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:308
+msgid "اعتبار به دلار نگه داشته می‌شود و هر درخواست به اندازهٔ مصرف واقعی از آن کم می‌شود. برای کنترل هزینه، در پنل نِت اَرز برای کلید سقف هزینه بگذارید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:319
+msgid "امروز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:320
+msgid "گفت‌وگوی تازه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:321
+msgid "گفت‌وگوی منتظر همکار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:322
+msgid "تیکت منتظر پاسخ"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:323
+msgid "درخواست هوش مصنوعی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:325
+msgid "درخواست ناموفق"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:331
+msgid "امکانات"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:332
+msgid "چت پشتیبانی آنلاین"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:332
+msgid "ویجت چت در همهٔ صفحه‌ها، با دستیار هوشمند و سپردن به همکار."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:333
+msgid "دستیار هوشمند چت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:333
+msgid "از روی دانش و مطالب سایت جواب می‌دهد و هرجا مطمئن نبود، گفت‌وگو را به شما می‌سپارد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:334
+#: includes/class-netarz-ai-admin.php:1002
+msgid "تیکتینگ"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:334
+msgid "ثبت و پیگیری تیکت برای مهمان و عضو، پیوست، بخش‌ها و امتیازدهی."
+msgstr ""
+
+#. translators: %s: mode
+#: includes/class-netarz-ai-admin.php:336
+#: includes/class-netarz-ai-admin.php:1055
+msgid "هوش مصنوعی تیکت"
+msgstr ""
+
+#. translators: %s: mode
+#: includes/class-netarz-ai-admin.php:336
+#, php-format
+msgid "حالت فعلی: %s"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:337
+msgid "نویسندهٔ هوشمند و ساخت تصویر"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:337
+msgid "مقاله، بازنویسی، سئو، توضیح محصول، ترجمه، تصویر شاخص و متن جایگزین."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:349
+msgid "نشانی‌ها و کدهای کوتاه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:351
+msgid "صفحهٔ پشتیبانی و تیکت:"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:353
+msgid "فرم ثبت، فهرست و پیگیری تیکت در هر برگه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:354
+msgid "یا هر عنصری با ویژگی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:354
+msgid "دکمه‌ای که پنجرهٔ چت را باز می‌کند"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:371
+msgid "روشن"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:371
+#: includes/class-netarz-ai-admin.php:1097
+msgid "خاموش"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:401
+msgid "مصرف ۳۰ روز اخیر این پروژه"
+msgstr ""
+
+#. translators: %s: total USD
+#: includes/class-netarz-ai-admin.php:403
+#, php-format
+msgid "جمع هزینه: %s دلار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:407
+msgid "نمودار هزینهٔ روزانه"
+msgstr ""
+
+#. translators: %s: balance
+#: includes/class-netarz-ai-admin.php:441
+#, php-format
+msgid "اعتبار: %s"
+msgstr ""
+
+#. translators: %d: count
+#: includes/class-netarz-ai-admin.php:444
+#, php-format
+msgid "%d گفت‌وگو منتظر شماست"
+msgstr ""
+
+#. translators: %d: count
+#: includes/class-netarz-ai-admin.php:446
+#, php-format
+msgid "%d تیکت منتظر پاسخ است"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:447
+msgid "پیشخوان هوش مصنوعی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:457
+msgid "دستیار هوشمند چت خاموش است یا کلید API وارد نشده؛ همهٔ پیام‌ها منتظر پاسخ شما می‌مانند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:459
+msgid "در حال بارگذاری…"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:477
+#: includes/class-netarz-ai-privacy.php:72
+#: includes/class-netarz-ai-tickets.php:902
+msgid "تیکت‌های پشتیبانی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:522
+msgid "جاری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:523
+msgid "منتظر پاسخ ما"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:524
+#: includes/class-netarz-ai-tickets.php:47
+#: includes/class-netarz-ai-tickets.php:58
+msgid "پاسخ داده شد"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:525
+#: includes/class-netarz-ai-tickets.php:48
+#: includes/class-netarz-ai-tickets.php:59
+msgid "در حال پیگیری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:538
+msgid "همهٔ بخش‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:542
+msgid "شماره، موضوع، نام، ایمیل…"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:543
+msgid "فیلتر"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:546
+#: includes/class-netarz-ai-privacy.php:75
+#: includes/class-netarz-ai-tickets.php:982
+msgid "موضوع"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:546
+#: includes/class-netarz-ai-admin.php:605
+#: includes/class-netarz-ai-admin.php:679
+#: includes/class-netarz-ai-tickets.php:268
+msgid "مشتری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:546
+#: includes/class-netarz-ai-admin.php:663
+#: includes/class-netarz-ai-tickets.php:948
+msgid "بخش"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:546
+#: includes/class-netarz-ai-admin.php:659
+#: includes/class-netarz-ai-tickets.php:953
+msgid "اولویت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:546
+#: includes/class-netarz-ai-admin.php:655
+msgid "وضعیت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:546
+msgid "آخرین پیام"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:548
+msgid "تیکتی پیدا نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:554
+msgid "از چت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:580
+msgid "تیکت پیدا نشد"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:581
+#: includes/class-netarz-ai-admin.php:591
+#: includes/class-netarz-ai-tickets.php:931
+#: includes/class-netarz-ai-tickets.php:1006
+msgid "→ همهٔ تیکت‌ها"
+msgstr ""
+
+#. translators: 1: id, 2: subject
+#: includes/class-netarz-ai-admin.php:587
+#, php-format
+msgid "تیکت #%1$d: %2$s"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:596
+msgid "خلاصهٔ هوشمند"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:596
+msgid "خلاصه کردن"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:597
+msgid "هنوز خلاصه‌ای ساخته نشده."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:606
+#: includes/class-netarz-ai-settings.php:261
+#: includes/class-netarz-ai-tickets.php:268
+#: includes/class-netarz-ai-tickets.php:1030
+#: includes/class-netarz-ai-tickets.php:1150
+#: includes/class-netarz-ai-tickets.php:1155
+msgid "پشتیبانی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:607
+msgid "دستیار هوشمند (ارسال‌شده)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:608
+msgid "یادداشت داخلی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:609
+msgid "پیش‌نویس هوشمند (مشتری نمی‌بیند)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:613
+msgid "بدون نام"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:617
+msgid "استفاده از این پیش‌نویس"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:626
+msgid "پاسخ"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:627
+msgid "نوشتن پیش‌نویس با هوش مصنوعی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:630
+msgid "پاسخ آماده…"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:642
+msgid "امضا اضافه شود"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:643
+msgid "بعد از ارسال: پاسخ داده شد"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:643
+msgid "بعد از ارسال: در حال پیگیری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:643
+msgid "بعد از ارسال: بستن تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:644
+msgid "ارسال پاسخ به مشتری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:645
+msgid "ثبت یادداشت داخلی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:654
+msgid "مشخصات"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:671
+msgid "مسئول"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:676
+msgid "ذخیره"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:680
+#: includes/class-netarz-ai-privacy.php:56
+#: includes/class-netarz-ai-privacy.php:76
+msgid "نام"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:681
+#: includes/class-netarz-ai-chat.php:186
+#: includes/class-netarz-ai-tickets.php:942
+msgid "ایمیل"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:683
+#: includes/class-netarz-ai-privacy.php:57
+#: includes/class-netarz-ai-privacy.php:77
+msgid "موبایل"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:686
+#: includes/class-netarz-ai-admin.php:688
+msgid "حساب"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:686
+msgid "دیدن کاربر"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:688
+msgid "مهمان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:698
+msgid "سفارش"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:700
+msgid "ثبت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:704
+msgid "دیدن تیکت از نگاه مشتری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:710
+msgid "حذف همیشگی تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:722
+#: includes/class-netarz-ai-admin.php:1278
+#: includes/class-netarz-ai-admin.php:1319
+msgid "اجازهٔ این کار را ندارید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:728
+#: includes/class-netarz-ai-admin.php:813
+#: includes/class-netarz-ai-admin.php:825
+msgid "تیکت پیدا نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:739
+#: includes/class-netarz-ai-chat.php:886
+msgid "متن پاسخ خالی است."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:747
+msgid "یادداشت ثبت شد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:760
+msgid "پاسخ برای مشتری فرستاده شد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:774
+msgid "ذخیره شد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:779
+msgid "فقط مدیر سایت می‌تواند تیکت را حذف کند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:786
+msgid "تیکت حذف شد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:790
+msgid "کاری انجام نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:839
+msgid "موضوع را بدهید، مقاله را تحویل بگیرید؛ بعد در ویرایشگر وردپرس ویرایش و منتشرش کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:843
+msgid "موضوع یا عنوان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:844
+msgid "مثلاً: راهنمای انتخاب کفش کوهنوردی برای مبتدی‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:845
+#: includes/class-netarz-ai-writer.php:804
+msgid "کلیدواژه‌ها (اختیاری)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:847
+msgid "نکته‌ها و اطلاعاتی که باید در متن بیاید (اختیاری)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:850
+#: includes/class-netarz-ai-writer.php:794
+msgid "لحن"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:856
+#: includes/class-netarz-ai-writer.php:799
+msgid "طول"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:862
+msgid "زبان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:864
+msgid "نوع"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:865
+msgid "نوشته"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:865
+msgid "برگه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:867
+msgid "نوشتن مقاله"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:868
+msgid "فقط سرفصل‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:873
+#: includes/class-netarz-ai-writer.php:873
+msgid "ذخیره به‌عنوان پیش‌نویس تازه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:874
+msgid "کپی HTML"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:885
+msgid "ساخت تصویر با هوش مصنوعی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:885
+msgid "تصویر را توصیف کنید؛ نتیجه مستقیم در کتابخانهٔ رسانه ذخیره می‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:888
+msgid "توصیف تصویر"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:889
+msgid "مثلاً: یک فنجان قهوه روی میز چوبی کنار پنجره، نور صبح، عکاسی واقعی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:891
+msgid "اندازه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:892
+msgid "مربع ۱۰۲۴"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:892
+msgid "افقی ۱۵۳۶×۱۰۲۴"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:892
+msgid "عمودی ۱۰۲۴×۱۵۳۶"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:893
+msgid "کیفیت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:894
+msgid "پایین (ارزان‌تر)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:894
+msgid "متوسط"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:894
+msgid "بالا"
+msgstr ""
+
+#. translators: %s: model id
+#: includes/class-netarz-ai-admin.php:902
+#, php-format
+msgid "مدل فعلی: %s — در تنظیمات قابل تغییر است. هزینهٔ هر تصویر به کیفیت و اندازه بستگی دارد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:916
+msgid "هر درخواستی که این سایت به نِت اَرز فرستاده؛ فقط مشخصات، نه متن پیام‌ها."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:929
+msgid "۳۰ روز اخیر به تفکیک امکان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:929
+#: includes/class-netarz-ai-admin.php:947
+msgid "امکان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:929
+msgid "درخواست"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:929
+msgid "ناموفق"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:929
+msgid "توکن ورودی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:929
+msgid "توکن خروجی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:931
+msgid "هنوز درخواستی ثبت نشده."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:943
+msgid "هزینهٔ دقیق هر درخواست در پنل نِت اَرز (بخش مصرف) دیده می‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:946
+msgid "ناموفق‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:947
+msgid "زمان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:947
+msgid "مدل"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:947
+msgid "نتیجه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:947
+msgid "توکن"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:947
+msgid "شناسهٔ درخواست"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:954
+msgid "موفق"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:961
+msgid "موردی نیست."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:978
+msgid "پاسخ چت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:979
+msgid "پیشنهاد پاسخ چت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:980
+msgid "پاسخ خودکار تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:981
+msgid "پیش‌نویس تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:982
+msgid "خلاصهٔ تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:984
+msgid "متن جایگزین تصویر"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:985
+msgid "پاسخ دیدگاه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:986
+msgid "آزمایش اتصال"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:989
+msgid "نویسنده:"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1000
+msgid "اتصال و عمومی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1001
+msgid "چت پشتیبانی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1003
+msgid "نویسنده و تصویر"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1004
+msgid "پیشرفته"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1011
+msgid "کلید API نِت اَرز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1011
+msgid "کلید پروژه از netarz.ir/ai؛ با sk-ntz-v1- شروع می‌شود. برای کنترل هزینه، در پنل نِت اَرز برای این کلید سقف هزینه بگذارید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1012
+msgid "مدل پیش‌فرض"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1012
+msgid "هر امکانی که مدل جدا ندارد از این مدل استفاده می‌کند. قیمت‌ها برای هر یک میلیون توکن ورودی/خروجی است."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1013
+msgid "هشدار کم بودن اعتبار (دلار)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1013
+msgid "وقتی اعتبار کمتر از این مقدار شد، در پیشخوان هشدار داده می‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1014
+msgid "دربارهٔ کسب‌وکار شما"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1014
+msgid "چند جمله: چه می‌فروشید، به چه کسانی، و چه چیزی شما را متفاوت می‌کند. همهٔ امکانات هوش مصنوعی از آن استفاده می‌کنند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1015
+msgid "نمایش ویجت چت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1015
+msgid "پنجرهٔ گفت‌وگوی آنلاین در پایین همهٔ صفحه‌های سایت."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1016
+msgid "پاسخ‌گویی دستیار هوشمند"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1016
+msgid "خاموش باشد، همهٔ پیام‌ها منتظر پاسخ همکاران می‌مانند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1017
+msgid "مدل چت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1017
+msgid "برای چت، مدلی سریع و ارزان با پشتیبانی JSON مناسب است."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1018
+msgid "نام پشتیبان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1018
+msgid "نامی که کنار پیام‌های پشتیبانی دیده می‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1019
+msgid "عنوان پنجره"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1020
+msgid "پیام خوشامد"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1021
+msgid "رنگ اصلی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1022
+msgid "رنگ متن روی رنگ اصلی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1023
+msgid "جای دکمه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1024
+msgid "فاصله از پایین صفحه (پیکسل)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1024
+msgid "اگر قالب شما نوار ثابت پایین دارد، این عدد را بیشتر کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1025
+msgid "پرسیدن نام"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1026
+msgid "پرسیدن راه تماس"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1026
+msgid "برای کاربران واردشده پرسیده نمی‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1027
+msgid "لحن دستیار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1028
+msgid "دستورهای اختصاصی دستیار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1028
+msgid "مثلاً: «دربارهٔ رقبا حرف نزن»، «برای سفارش عمده، شمارهٔ فروش را بده». این دستورها بر رفتار پیش‌فرض مقدم است. مثل دانش اختصاصی، عمومی فرضش کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1029
+msgid "دانش اختصاصی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1029
+msgid "پرسش‌های پرتکرار، شرایط ارسال، ساعت کاری، روش‌های پرداخت، گارانتی، شماره تماس… دستیار فقط از همین‌ها و مطالب سایت حرف می‌زند. این متن را عمومی فرض کنید: رمز، اطلاعات مالی یا هر چیز محرمانه‌ای ننویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1030
+msgid "جست‌وجو در مطالب سایت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1030
+msgid "دستیار نوشته‌ها، برگه‌ها و محصولات مرتبط با سؤال را پیدا می‌کند و از آن‌ها جواب می‌دهد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1031
+msgid "نوع‌های محتوا برای جست‌وجو"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1031
+msgid "با کاما جدا کنید؛ مثلاً post,page,product"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1032
+msgid "حداقل اطمینان برای پاسخ (٪)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1032
+msgid "اگر دستیار کمتر از این مطمئن بود، به‌جای جواب دادن گفت‌وگو را به همکار می‌سپارد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1033
+msgid "با پاسخ همکار، دستیار ساکت شود"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1033
+msgid "وقتی خودتان جواب دادید یا گفت‌وگو به همکار سپرده شد، دستیار در آن گفت‌وگو دیگر جواب نمی‌دهد (از صندوق دوباره روشن می‌شود)."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1034
+msgid "سقف پاسخ خودکار در هر گفت‌وگو"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1035
+msgid "سقف پاسخ خودکار در روز (کل سایت)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1035
+msgid "محافظ هزینه در برابر سوءاستفاده."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1036
+msgid "سقف شروع گفت‌وگو از هر اتصال در ساعت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1037
+msgid "حداکثر طول هر پیام (نویسه)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1038
+msgid "پیام دعوت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1038
+msgid "یک بار در هر بازدید، کنار دکمهٔ چت ظاهر می‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1039
+msgid "تأخیر پیام دعوت (ثانیه)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1040
+msgid "متن پیام دعوت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1041
+msgid "صدای پیام تازه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1042
+msgid "ساعت کاری همکاران"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1042
+msgid "بیرون از این ساعت‌ها وضعیت «خارج از ساعت کاری» نشان داده می‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1044
+msgid "پایان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1045
+msgid "روزهای کاری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1046
+msgid "پیام خارج از ساعت کاری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1047
+msgid "پنهان در این صفحه‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1047
+msgid "هر خط یک مسیر (مثل /checkout) یا شناسهٔ برگه. * یعنی هر چیزی."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1048
+msgid "پنهان در موبایل"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1049
+msgid "ایمیل اعلان گفت‌وگو"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1049
+msgid "خالی = ایمیل مدیر سایت. چند ایمیل را با کاما جدا کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1050
+msgid "چه وقت ایمیل بفرستد"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1051
+msgid "نگه‌داری گفت‌وگوهای بسته (روز)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1051
+msgid "۰ یعنی همیشه نگه دار."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1052
+msgid "فعال بودن تیکتینگ"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1053
+msgid "ثبت تیکت برای مهمان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1053
+msgid "مهمان با نام و ایمیل تیکت می‌فرستد و با لینک مخصوص پیگیری می‌کند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1054
+msgid "بخش‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1054
+msgid "هر خط یک بخش."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1055
+msgid "پیش‌نویس: دستیار برای هر پیام مشتری پیش‌نویس خصوصی می‌نویسد. خودکار: وقتی مطمئن است خودش جواب می‌دهد، وگرنه پیش‌نویس می‌گذارد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1056
+msgid "مدل تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1057
+msgid "حداقل اطمینان برای پاسخ خودکار (٪)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1058
+msgid "سقف کار هوش مصنوعی روی تیکت‌ها در روز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1058
+msgid "پیش‌نویس و پاسخ خودکار روی هم؛ بعد از آن تا فردا فقط همکاران جواب می‌دهند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1059
+msgid "سقف کار هوش مصنوعی روی هر تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1059
+msgid "جلوی تیکتی را می‌گیرد که با پیام‌های پشت‌سرهم اعتبار را خرج می‌کند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1060
+msgid "پیوست فایل"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1060
+msgid "فایل‌ها با نام تصادفی در پوشهٔ محافظت‌شده ذخیره و فقط برای صاحب تیکت و همکاران نمایش داده می‌شوند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1061
+msgid "حداکثر حجم هر فایل (مگابایت)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1062
+msgid "پسوندهای مجاز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1062
+msgid "فایل‌های اجرایی و اسکریپت همیشه رد می‌شوند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1063
+msgid "ایمیل اعلان تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1063
+msgid "خالی = ایمیل مدیر سایت."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1064
+msgid "بستن خودکار پس از (روز)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1064
+msgid "تیکتی که جواب داده‌اید و مشتری تا این مدت پاسخ نداده بسته می‌شود. ۰ = هرگز."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1065
+msgid "پاسخ‌های آماده"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1065
+msgid "هر خط: عنوان | متن. برای خط تازه در متن \\n بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1066
+msgid "برگهٔ پشتیبانی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1066
+msgid "برگه‌ای که کد کوتاه [netarz_ai_tickets] در آن است؛ لینک‌های ایمیل به آن می‌رود."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1067
+msgid "زبانهٔ «پشتیبانی» در حساب ووکامرس"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1068
+msgid "امضای پاسخ‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1069
+msgid "ابزارهای نویسندگی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1069
+msgid "جعبهٔ «دستیار هوشمند» در ویرایشگر، صفحهٔ نویسنده، ساخت تصویر، متن جایگزین و پاسخ دیدگاه."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1070
+msgid "مدل نویسنده"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1071
+msgid "زبان پیش‌فرض نوشتن"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1072
+msgid "لحن پیش‌فرض"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1073
+msgid "چاپ توضیحات متا"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1073
+msgid "فقط وقتی افزونهٔ سئوی دیگری (Yoast، Rank Math، AIOSEO، SEOPress) فعال نیست. با آن افزونه‌ها، مقادیر در فیلدهای خودشان ذخیره می‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1074
+msgid "مدل تصویر"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1075
+msgid "مدل دیدن تصویر (متن جایگزین)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1075
+msgid "مدلی که تصویر را می‌فهمد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1076
+msgid "پیشنهاد پاسخ دیدگاه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1077
+msgid "نقش‌های پشتیبان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1077
+msgid "نامک نقش‌ها با کاما؛ این نقش‌ها گفت‌وگوها و تیکت‌ها را می‌بینند. مدیر همیشه دسترسی دارد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1078
+msgid "نقش‌های نویسنده"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1078
+msgid "این نقش‌ها ابزارهای نویسندگی را دارند."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1079
+msgid "نگه‌داری گزارش مصرف (روز)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1080
+msgid "پاک کردن همه‌چیز هنگام حذف افزونه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1080
+msgid "گفت‌وگوها، تیکت‌ها، پیوست‌ها و تنظیمات پاک می‌شود. برگشت‌پذیر نیست."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1086
+msgid "راست"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1086
+msgid "چپ"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1087
+#: includes/class-netarz-ai-admin.php:1089
+msgid "نپرس"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1087
+msgid "اختیاری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1087
+msgid "الزامی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1090
+msgid "اختیاری (موبایل یا ایمیل)"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1091
+msgid "الزامی: موبایل یا ایمیل"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1092
+msgid "الزامی: موبایل"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1093
+msgid "الزامی: ایمیل"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1095
+msgid "محاوره‌ای و گرم"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1095
+#: includes/class-netarz-ai-writer.php:66
+msgid "رسمی"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1096
+msgid "هیچ‌وقت"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1096
+msgid "وقتی گفت‌وگو به همکار سپرده شد"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1096
+msgid "هر گفت‌وگوی تازه و سپرده‌شده"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1097
+msgid "فقط پیش‌نویس برای همکار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1097
+msgid "پاسخ خودکار وقتی مطمئن است"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1112
+msgid "تنظیمات هوش مصنوعی نِت اَرز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1123
+msgid "آزمایش اتصال و به‌روزرسانی فهرست مدل‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1135
+msgid "ظاهر و متن‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1136
+msgid "رفتار دستیار"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1137
+msgid "محافظ‌های هزینه و سوءاستفاده"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1138
+msgid "دعوت به گفت‌وگو"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1139
+msgid "ساعت کاری"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1140
+msgid "نمایش و اعلان‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1142
+msgid "پیوست و اعلان"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1143
+msgid "تصویر و دیدگاه‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1161
+msgid "ذخیرهٔ تنظیمات"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1172
+msgid "فعال"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1183
+msgid "— انتخاب برگه —"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1200
+msgid "شنبه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1200
+msgid "یکشنبه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1200
+msgid "دوشنبه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1200
+msgid "سه‌شنبه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1200
+msgid "چهارشنبه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1200
+msgid "پنجشنبه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1200
+msgid "جمعه"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1225
+msgid "حذف کلید"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1227
+msgid "ساخت کلید در پنل نِت اَرز"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1227
+msgid "مستندات"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1233
+msgid "شناسهٔ مدل"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1234
+msgid "فهرست مدل‌ها از نِت اَرز دریافت نشد؛ شناسه را دستی وارد کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1239
+msgid "— همان مدل پیش‌فرض —"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1266
+msgid "رایگان"
+msgstr ""
+
+#. translators: 1: input price, 2: output price
+#: includes/class-netarz-ai-admin.php:1271
+#, php-format
+msgid "%1$s / %2$s تومان برای هر میلیون توکن"
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1301
+msgid "تنظیمات ذخیره شد."
+msgstr ""
+
+#: includes/class-netarz-ai-admin.php:1306
+msgid "تنظیمات ذخیره شد، ولی اتصال با این کلید برقرار نشد:"
+msgstr ""
+
+#. translators: %s: balance
+#: includes/class-netarz-ai-admin.php:1310
+#, php-format
+msgid "کلید تأیید شد و به حساب نِت اَرز وصل شدید. اعتبار: %s"
+msgstr ""
+
+#. translators: 1: balance, 2: number of models
+#: includes/class-netarz-ai-admin.php:1334
+#, php-format
+msgid "اتصال برقرار است. اعتبار: %1$s — %2$d مدل گفت‌وگو در دسترس است."
+msgstr ""
+
+#: includes/class-netarz-ai-api.php:64
+msgid "کلید API نِت اَرز هنوز وارد نشده است. از «هوش مصنوعی نِت اَرز ← تنظیمات» واردش کنید."
+msgstr ""
+
+#. translators: %s: transport error
+#: includes/class-netarz-ai-api.php:97
+#, php-format
+msgid "اتصال به سرور نِت اَرز برقرار نشد: %s"
+msgstr ""
+
+#. translators: %d: HTTP status
+#: includes/class-netarz-ai-api.php:116
+#, php-format
+msgid "سرور نِت اَرز خطای %d برگرداند."
+msgstr ""
+
+#: includes/class-netarz-ai-api.php:117
+msgid "پاسخ سرور نِت اَرز قابل خواندن نبود."
+msgstr ""
+
+#: includes/class-netarz-ai-api.php:279
+msgid "مدل پاسخی برنگرداند. دوباره امتحان کنید یا مدل دیگری انتخاب کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-api.php:325
+msgid "تصویری برنگشت. دوباره امتحان کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-api.php:383
+msgid "اعتبار هوش مصنوعی حساب نِت اَرز تمام شده است. از پنل نِت اَرز اعتبار بخرید."
+msgstr ""
+
+#: includes/class-netarz-ai-api.php:389
+msgid "کلید را در تنظیمات افزونه بررسی کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-api.php:391
+msgid "تعداد درخواست‌ها در این دقیقه از سقف کلید بیشتر شد. کمی بعد دوباره امتحان کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat-agent.php:61
+msgid "سقف پاسخ‌های خودکار این گفت‌وگو پر شد."
+msgstr ""
+
+#: includes/class-netarz-ai-chat-agent.php:66
+msgid "اعتبار هوش مصنوعی نِت اَرز تمام شده؛ دستیار نتوانست جواب بدهد."
+msgstr ""
+
+#: includes/class-netarz-ai-chat-agent.php:71
+msgid "سقف روزانهٔ پاسخ‌های خودکار سایت پر شد."
+msgstr ""
+
+#. translators: %d: confidence percent
+#: includes/class-netarz-ai-chat-agent.php:145
+#, php-format
+msgid "دستیار از جوابش مطمئن نبود (%d٪)."
+msgstr ""
+
+#: includes/class-netarz-ai-chat-agent.php:156
+msgid "دستیار گفت‌وگو را به همکار سپرد."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:182
+msgid "گفت‌وگو با پشتیبانی"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:183
+msgid "بستن"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:184
+msgid "نام شما"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:185
+msgid "شمارهٔ موبایل"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:187
+msgid "موبایل یا ایمیل"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:188
+msgid "اگر صفحه را بستید، با همین راه پیگیری می‌کنیم."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:189
+msgid "(اختیاری)"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:190
+msgid "پیام"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:191
+msgid "سؤال یا مشکلتان را بنویسید…"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:192
+msgid "شروع گفت‌وگو"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:194
+msgid "پیامتان را بنویسید…"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:196
+msgid "گفت‌وگو به همکارمان سپرده شد؛ همین‌جا جواب می‌دهد."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:197
+msgid "صحبت با همکار پشتیبانی"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:198
+#: includes/class-netarz-ai-chat.php:523
+msgid "این گفت‌وگو بسته شده."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:199
+msgid "شروع گفت‌وگوی تازه"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:200
+msgid "پایان گفت‌وگو"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:201
+msgid "گفت‌وگو بسته شود؟"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:202
+msgid "این گفت‌وگو چطور بود؟"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:203
+#: includes/class-netarz-ai-tickets.php:758
+msgid "ممنون از نظرتان."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:204
+msgid "ثبت به‌صورت تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:205
+msgid "ایمیل برای پیگیری تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:206
+msgid "تیکت ثبت شد. لینک پیگیری به ایمیلتان رفت."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:208
+msgid "ارسال شد"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:209
+msgid "بی‌صدا کردن"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:210
+msgid "روشن‌کردن صدا"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:211
+msgid "خارج از ساعت کاری"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:212
+msgid "آنلاین"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:213
+msgid "ارسال نشد. اتصال اینترنت را بررسی کنید و دوباره بفرستید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:214
+#: includes/class-netarz-ai-chat.php:410
+msgid "نامتان را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:215
+#: includes/class-netarz-ai-chat.php:429
+msgid "یک راه تماس درست وارد کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:216
+#: includes/class-netarz-ai-chat.php:399
+#: includes/class-netarz-ai-chat.php:528
+msgid "پیامتان را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:217
+#: includes/class-netarz-ai-chat.php:402
+#: includes/class-netarz-ai-chat.php:531
+msgid "پیام خیلی طولانی است. کوتاه‌ترش کنید یا در دو پیام بفرستید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:218
+#: includes/class-netarz-ai-tickets.php:1026
+msgid "شما"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:312
+#: includes/class-netarz-ai-chat.php:813
+msgid "این گفت‌وگو پیدا نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:382
+msgid "گفت‌وگوی آنلاین فعلاً خاموش است."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:387
+msgid "پیام فرستاده نشد. صفحه را تازه کنید و دوباره بفرستید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:618
+msgid "فرم فرستاده نشد. صفحه را تازه کنید و دوباره بفرستید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:434
+msgid "در این یک ساعت گفت‌وگوهای زیادی از این اتصال شروع شده. کمی بعد دوباره امتحان کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:460
+msgid "گفت‌وگو ثبت نشد. دوباره امتحان کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:534
+msgid "پیام‌ها خیلی پشت سر هم آمد. چند ثانیه صبر کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:593
+msgid "مشتری خودش خواست با همکار صحبت کند."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:610
+msgid "امتیاز باید بین ۱ تا ۵ باشد."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:623
+#: includes/class-netarz-ai-chat.php:945
+msgid "گفت‌وگو بسته شد."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:634
+msgid "ثبت تیکت فعلاً خاموش است."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:645
+msgid "برای پیگیری تیکت یک ایمیل درست لازم است."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:648
+msgid "کمی بعد دوباره امتحان کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:681
+msgid "گفت‌وگو را به همکارم می‌سپارم؛ همین‌جا جوابتان را می‌دهد."
+msgstr ""
+
+#. translators: %s: visitor name
+#: includes/class-netarz-ai-chat.php:705
+#, php-format
+msgid "گفت‌وگوی %s به پاسخ شما نیاز دارد"
+msgstr ""
+
+#. translators: %s: visitor name
+#: includes/class-netarz-ai-chat.php:707
+#, php-format
+msgid "پیام تازه در گفت‌وگوی آنلاین از %s"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:711
+msgid "باز کردن گفت‌وگو"
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:945
+msgid "گفت‌وگو دوباره باز شد."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:959
+#: includes/class-netarz-ai-chat.php:964
+msgid "این مشتری ایمیل ثبت نکرده؛ تیکت بدون ایمیل قابل پیگیری نیست."
+msgstr ""
+
+#: includes/class-netarz-ai-chat.php:993
+msgid "فقط مدیر سایت می‌تواند گفت‌وگو را حذف کند."
+msgstr ""
+
+#: includes/class-netarz-ai-privacy.php:20
+#: includes/class-netarz-ai-privacy.php:28
+msgid "گفت‌وگوها و تیکت‌های پشتیبانی"
+msgstr ""
+
+#: includes/class-netarz-ai-privacy.php:58
+#: includes/class-netarz-ai-privacy.php:78
+msgid "تاریخ"
+msgstr ""
+
+#: includes/class-netarz-ai-privacy.php:59
+msgid "متن گفت‌وگو"
+msgstr ""
+
+#: includes/class-netarz-ai-privacy.php:79
+msgid "پیام‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-privacy.php:124
+msgid "وقتی از گفت‌وگوی آنلاین یا فرم تیکت استفاده می‌کنید، نام، راه تماس و متن پیام‌هایتان روی همین سایت ذخیره می‌شود. برای پاسخ‌گویی خودکار، متن پیام و بخش‌های مرتبط از مطالب سایت برای وب‌سرویس هوش مصنوعی نِت اَرز (netarz.ir) فرستاده می‌شود و از آن‌جا به شرکت سازندهٔ مدل هوش مصنوعی می‌رسد. نشانی IP به صورت درهم‌سازی‌شده و فقط برای جلوگیری از سوءاستفاده نگه داشته می‌شود."
+msgstr ""
+
+#. translators: 1: reason, 2: confidence
+#. translators: %s: error message
+#: includes/class-netarz-ai-ticket-agent.php:98
+#: includes/class-netarz-ai-ticket-agent.php:102
+#: includes/class-netarz-ai-ticket-agent.php:114
+#: includes/class-netarz-ai-ticket-agent.php:292
+msgid "دستیار هوشمند"
+msgstr ""
+
+#: includes/class-netarz-ai-ticket-agent.php:100
+msgid "دستیار مطمئن نبود؛ لطفاً خودتان پاسخ بدهید."
+msgstr ""
+
+#. translators: 1: reason, 2: confidence
+#: includes/class-netarz-ai-ticket-agent.php:102
+#, php-format
+msgid "دستیار جواب نداد: %1$s (اطمینان %2$d٪)"
+msgstr ""
+
+#. translators: %s: error message
+#: includes/class-netarz-ai-ticket-agent.php:292
+#, php-format
+msgid "دستیار نتوانست پیش‌نویس بنویسد: %s"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:46
+msgid "پاسخ مشتری"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:56
+#: includes/class-netarz-ai-tickets.php:57
+msgid "در انتظار پاسخ"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:67
+msgid "کم"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:68
+msgid "معمولی"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:69
+msgid "زیاد"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:70
+msgid "فوری"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:147
+#: includes/class-netarz-ai-tickets.php:641
+msgid "موضوع و متن تیکت را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:150
+msgid "ایمیل درست نیست."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:173
+msgid "تیکت ثبت نشد. دوباره امتحان کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:253
+msgid "مشتری تیکت را بست."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:253
+msgid "تیکت بسته شد."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:256
+msgid "تیکت دوباره باز شد."
+msgstr ""
+
+#. translators: %s: first words of the chat
+#: includes/class-netarz-ai-tickets.php:282
+#, php-format
+msgid "گفت‌وگوی آنلاین: %s"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:283
+msgid "این تیکت از گفت‌وگوی آنلاین سایت ساخته شده. متن گفت‌وگو:"
+msgstr ""
+
+#. translators: %d: ticket number
+#: includes/class-netarz-ai-tickets.php:301
+#, php-format
+msgid "تیکت شمارهٔ %d ساخته شد؛ لینک پیگیری به ایمیل رفت."
+msgstr ""
+
+#. translators: %d: max files
+#: includes/class-netarz-ai-tickets.php:405
+#, php-format
+msgid "حداکثر %d فایل می‌توانید پیوست کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:408
+msgid "بارگذاری فایل ناموفق بود."
+msgstr ""
+
+#. translators: %d: size in MB
+#: includes/class-netarz-ai-tickets.php:413
+#, php-format
+msgid "حجم هر فایل باید کمتر از %d مگابایت باشد."
+msgstr ""
+
+#. translators: %s: allowed extensions
+#: includes/class-netarz-ai-tickets.php:421
+#, php-format
+msgid "نوع فایل مجاز نیست. نوع‌های مجاز: %s"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:430
+msgid "فایل ذخیره نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:493
+#: includes/class-netarz-ai-tickets.php:499
+#: includes/class-netarz-ai-tickets.php:504
+msgid "این فایل در دسترس نیست."
+msgstr ""
+
+#. translators: 1: ticket id, 2: subject
+#: includes/class-netarz-ai-tickets.php:534
+#, php-format
+msgid "تیکت تازه #%1$d: %2$s"
+msgstr ""
+
+#. translators: 1: ticket id, 2: subject
+#: includes/class-netarz-ai-tickets.php:536
+#, php-format
+msgid "پاسخ مشتری در تیکت #%1$d: %2$s"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:540
+msgid "باز کردن تیکت در پیشخوان"
+msgstr ""
+
+#. translators: %d: ticket id
+#: includes/class-netarz-ai-tickets.php:547
+#, php-format
+msgid "تیکت شما ثبت شد (#%d)"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:549
+msgid "سلام، تیکت شما با موضوع زیر ثبت شد و همکاران ما به‌زودی جواب می‌دهند."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:551
+msgid "دیدن و پیگیری تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:552
+msgid "این لینک مخصوص شماست؛ آن را برای دیگران نفرستید."
+msgstr ""
+
+#. translators: 1: ticket id, 2: subject
+#: includes/class-netarz-ai-tickets.php:559
+#, php-format
+msgid "پاسخ تیکت #%1$d: %2$s"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:560
+msgid "به تیکت شما پاسخ داده شد:"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:562
+msgid "دیدن تیکت و ارسال پاسخ"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:586
+msgid "مهلت فرم تمام شده بود. صفحه را تازه کنید و دوباره بفرستید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:615
+#: includes/class-netarz-ai-tickets.php:861
+msgid "برای ثبت تیکت اول وارد حساب کاربری شوید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:621
+msgid "در این یک ساعت تیکت‌های زیادی ثبت شده. کمی بعد دوباره امتحان کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:644
+msgid "نام و یک ایمیل درست لازم است تا بتوانیم جواب بدهیم."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:647
+msgid "متن تیکت خیلی طولانی است. کوتاه‌ترش کنید یا توضیح بیشتر را در فایل پیوست بگذارید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:695
+msgid "تیکت ثبت شد. پاسخ را همین‌جا و در ایمیلتان می‌بینید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:696
+msgid "تیکت ثبت شد. لینک پیگیری را به ایمیلتان هم فرستادیم؛ این صفحه را هم می‌توانید نشانه‌گذاری کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:704
+msgid "این تیکت پیدا نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:714
+msgid "متن پاسخ را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:717
+msgid "متن پاسخ خیلی طولانی است. کوتاه‌ترش کنید یا در دو پاسخ بفرستید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:720
+msgid "پاسخ‌ها خیلی پشت سر هم فرستاده شد. کمی بعد دوباره امتحان کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:739
+msgid "پاسخ شما ثبت شد."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:745
+msgid "تیکت بسته شد. اگر باز هم سؤالی داشتید، با یک پاسخ تازه دوباره باز می‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:752
+msgid "یک امتیاز از ۱ تا ۵ انتخاب کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:772
+msgid "اگر شماره و ایمیل با هم جور باشند، لینک پیگیری همین الان به ایمیلتان رفت."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:854
+msgid "این تیکت پیدا نشد یا لینک آن کامل نیست. اگر مهمان هستید، از لینکی که به ایمیلتان رفت استفاده کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:861
+msgid "ورود"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:903
+msgid "تیکت تازه"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:906
+msgid "هنوز تیکتی ثبت نکرده‌اید. هر سؤال یا مشکلی داشتید، یک تیکت بفرستید تا همکاران ما پیگیری کنند."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:933
+msgid "ثبت تیکت پشتیبانی"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:941
+msgid "نام و نام خانوادگی"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:944
+msgid "شمارهٔ موبایل (اختیاری)"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:969
+msgid "سفارش مرتبط (اختیاری)"
+msgstr ""
+
+#. translators: 1: order number, 2: date
+#: includes/class-netarz-ai-tickets.php:975
+#, php-format
+msgid "سفارش %1$s — %2$s"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:983
+msgid "شرح درخواست"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:986
+msgid "ثبت تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:991
+msgid "قبلاً تیکت ثبت کرده‌اید؟ لینک پیگیری را دوباره بگیرید"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:995
+msgid "شمارهٔ تیکت"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:996
+msgid "ایمیلی که با آن ثبت کردید"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:997
+msgid "ارسال لینک به ایمیل"
+msgstr ""
+
+#. translators: %s: order number
+#: includes/class-netarz-ai-tickets.php:1015
+#, php-format
+msgid "سفارش %s"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:1045
+msgid "این تیکت بسته شده؛ با فرستادن پاسخ دوباره باز می‌شود."
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:1045
+msgid "پاسخ شما"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:1048
+msgid "ارسال پاسخ"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:1055
+msgid "مشکلم حل شد؛ تیکت را ببند"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:1060
+msgid "از پشتیبانی راضی بودید؟"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:1064
+msgid "اگر نکته‌ای دارید بنویسید (اختیاری)"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:1065
+msgid "ثبت امتیاز"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:1105
+msgid "پیوست (اختیاری)"
+msgstr ""
+
+#. translators: 1: count, 2: MB, 3: types
+#: includes/class-netarz-ai-tickets.php:1109
+#, php-format
+msgid "تا %1$d فایل، هرکدام حداکثر %2$d مگابایت (%3$s)"
+msgstr ""
+
+#: includes/class-netarz-ai-tickets.php:1215
+msgid "پشتیبانی و تیکت"
+msgstr ""
+
+#. translators: %s: human time difference
+#: includes/class-netarz-ai-util.php:34
+#, php-format
+msgid "%s پیش"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:45
+msgid "نوشتن مقالهٔ کامل"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:46
+msgid "ساختار و سرفصل مقاله"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:47
+msgid "بازنویسی و روان‌تر کردن"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:48
+msgid "گسترش متن"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:49
+msgid "کوتاه‌تر کردن"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:50
+msgid "ویرایش املایی و نگارشی"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:51
+msgid "ترجمه"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:52
+msgid "خلاصه (برای چکیده)"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:53
+msgid "پیشنهاد عنوان"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:54
+msgid "عنوان و توضیحات سئو"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:55
+msgid "پیشنهاد برچسب"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:56
+msgid "پرسش‌های متداول"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:57
+msgid "توضیحات محصول"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:58
+msgid "متن شبکه‌های اجتماعی"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:59
+msgid "پیشنهاد پرامپت تصویر شاخص"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:65
+msgid "صمیمی و گرم"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:67
+msgid "تخصصی و دقیق"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:68
+msgid "ترغیب‌کننده (فروش)"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:69
+msgid "ساده و قابل‌فهم برای همه"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:75
+msgid "کوتاه (حدود ۴۰۰ کلمه)"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:76
+msgid "متوسط (حدود ۸۰۰ کلمه)"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:77
+msgid "بلند (حدود ۱۵۰۰ کلمه)"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:91
+#: includes/class-netarz-ai-writer.php:215
+msgid "این کار شناخته نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:126
+msgid "موضوع یا عنوان مقاله را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:136
+msgid "موضوع یا عنوان را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:149
+msgid "متنی برای کار وجود ندارد. متن را وارد کنید یا اول محتوای نوشته را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:163
+msgid "متنی برای خلاصه‌کردن وجود ندارد."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:179
+msgid "اول عنوان یا متن نوشته را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:195
+msgid "نام محصول را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:256
+msgid "خروجی مدل قابل خواندن نبود. دوباره امتحان کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:376
+msgid "ابزارهای نویسندگی در تنظیمات افزونه خاموش است."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:379
+msgid "درخواست‌ها زیاد شد. چند دقیقه صبر کنید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:419
+msgid "متن ورودی خیلی طولانی است."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:432
+msgid "اجازهٔ ساختن این نوع نوشته را ندارید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:438
+msgid "متنی برای ذخیره وجود ندارد."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:442
+msgid "نوشتهٔ تازه"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:472
+msgid "توصیف تصویر را بنویسید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:552
+msgid "این تصویر پیدا نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:602
+msgid "فایل تصویر پیدا نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:623
+msgid "تصویر بزرگ است و کتابخانهٔ تصویر سرور در دسترس نیست."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:632
+msgid "اجازهٔ ویرایش این نوشته را ندارید."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:722
+msgid "این دیدگاه پیدا نشد."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:764
+msgid "دستیار هوشمند نِت اَرز"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:774
+msgid "کلید API نِت اَرز وارد نشده است."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:777
+msgid "چه کاری انجام شود؟"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:790
+msgid "موضوع، متن یا توضیح (اختیاری)"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:791
+msgid "خالی بماند تا از عنوان و محتوای همین نوشته استفاده شود."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:805
+msgid "زبان مقصد ترجمه، مثلاً English"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:807
+msgid "اجرا"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:810
+msgid "توضیحات متای فعلی:"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:814
+msgid "ساخت تصویر شاخص"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:815
+msgid "توصیف تصویر… (خالی = پیشنهاد از روی عنوان)"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:818
+msgid "افقی"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:819
+msgid "مربع"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:820
+msgid "عمودی"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:823
+msgid "کیفیت متوسط"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:824
+msgid "کیفیت پایین (ارزان‌تر)"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:825
+msgid "کیفیت بالا"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:828
+msgid "ساخت و تنظیم به‌عنوان تصویر شاخص"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:853
+msgid "در حال ساخت تصویر؛ ممکن است یک دقیقه طول بکشد…"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:854
+msgid "افزودن به انتهای محتوا"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:855
+msgid "جایگزینی کل محتوا"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:856
+msgid "کپی"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:857
+msgid "کپی شد"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:858
+msgid "استفاده به‌عنوان عنوان"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:859
+msgid "قراردادن در چکیده"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:860
+msgid "ذخیرهٔ عنوان و توضیحات سئو"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:861
+msgid "ذخیره شد"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:862
+msgid "افزودن به برچسب‌ها"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:863
+msgid "قراردادن در توضیحات محصول"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:864
+msgid "قراردادن در توضیح کوتاه"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:865
+msgid "کل محتوای فعلی جایگزین شود؟"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:866
+msgid "در حال نوشتن متن جایگزین…"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:867
+msgid "متن جایگزین ذخیره شد."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:868
+msgid "پیشنهاد پاسخ با هوش مصنوعی"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:870
+msgid "عنوان سئو"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:871
+msgid "توضیحات متا"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:872
+msgid "نویسه"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:874
+msgid "باز کردن در ویرایشگر"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:875
+msgid "تصویر شاخص تنظیم شد."
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:876
+msgid "دیدن در کتابخانهٔ رسانه"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:889
+msgid "نوشتن متن جایگزین (alt)"
+msgstr ""
+
+#: includes/class-netarz-ai-writer.php:898
+msgid "پیشنهاد پاسخ هوشمند"
+msgstr ""
