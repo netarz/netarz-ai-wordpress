@@ -1,0 +1,17 @@
+name: پیشنهاد امکان تازه (Feature request)
+description: چیزی که به کار پشتیبانی یا تولید محتوای سایت وردپرسی شما می‌آید.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: چه مشکلی را حل می‌کند؟ (What problem does it solve?)
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: پیشنهاد شما (Your idea)
+    validations:
+      required: true

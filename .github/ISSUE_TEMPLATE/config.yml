@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: حساب، اعتبار و کلید (Account, credit and keys)
+    url: https://netarz.ir/tickets?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress&utm_content=issue-template
+    about: این‌ها را از پنل نِت اَرز با تیکت بپرسید، نه در Issue عمومی.
+  - name: مستندات API هوش مصنوعی (Documentation)
+    url: https://netarz.ir/docs/ai?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress&utm_content=issue-template
+    about: مدل‌ها، خطاها و محدودیت‌های API.
+  - name: گزارش مشکل امنیتی (Security issue)
+    url: https://github.com/netarz/netarz-ai-wordpress/blob/main/SECURITY.md
+    about: مشکل امنیتی را فقط به dev@netarz.ir ایمیل کنید.

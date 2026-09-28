@@ -1,0 +1,60 @@
+name: گزارش اشکال (Bug report)
+description: افزونه در وردپرس شما کار نمی‌کند یا نتیجهٔ نادرست می‌دهد.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ممنون که گزارش می‌دهید. مشکل حساب، اعتبار یا کلید را این‌جا ننویسید؛ از پنل نِت اَرز تیکت بزنید.
+        مشکل امنیتی را هم فقط به dev@netarz.ir بفرستید.
+  - type: dropdown
+    id: area
+    attributes:
+      label: کدام بخش؟ (Which part?)
+      options:
+        - پنجرهٔ چت در سایت (Chat widget)
+        - صندوق چت همکاران (Staff inbox)
+        - تیکت‌ها (Tickets)
+        - ابزارهای نوشتن در ویرایشگر (Writing tools)
+        - زبانهٔ حساب کاربری ووکامرس (WooCommerce account tab)
+        - تنظیمات، اتصال یا اعتبار (Settings / connection / credit)
+        - نصب یا به‌روزرسانی (Install / upgrade)
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: چه اتفاقی افتاد؟ (What happened?)
+      description: متن کامل خطا، یا آنچه در کنسول مرورگر یا debug.log وردپرس دیده می‌شود. کلید را پاک کنید.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: انتظار چه چیزی را داشتید؟ (What did you expect?)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: مراحل بازتولید (Steps to reproduce)
+      placeholder: |
+        1. ...
+        2. ...
+  - type: input
+    id: environment
+    attributes:
+      label: محیط اجرا (Environment)
+      description: نسخهٔ وردپرس، نسخهٔ PHP، پوسته، نسخهٔ ووکامرس (اگر دارید)، نسخهٔ افزونه و مدل.
+      placeholder: WordPress 6.8, PHP 8.2, Astra, WooCommerce 9.3, netarz-ai 1.0.0, gpt-4.1-mini
+    validations:
+      required: true
+  - type: checkboxes
+    id: no_secrets
+    attributes:
+      label: پیش از ارسال
+      options:
+        - label: کلید واقعی و اطلاعات مشتری‌ها را از متن حذف کرده‌ام. (I removed real keys and customer data.)
+          required: true
