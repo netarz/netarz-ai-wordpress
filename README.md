@@ -63,6 +63,15 @@
 ۳. در پیشخوان وردپرس به «هوش مصنوعی ← تنظیمات» بروید، کلید را وارد و ذخیره کنید. افزونه اتصال را آزمایش می‌کند و موجودی را نشان می‌دهد.
 ۴. در تب «چت پشتیبانی» ویجت را روشن کنید و در «دانش اختصاصی» اطلاعاتی را که دستیار باید بداند بنویسید: شرایط ارسال، روش‌های پرداخت، ساعت کاری، راه‌های تماس و پرسش‌های پرتکرار.
 
+### با کلید گیسو
+
+اگر حسابتان را در [گیسو](https://gisoo.pro/?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress&utm_content=install)، برند هوش مصنوعی نِت اَرز، ساخته‌اید، لازم نیست دوباره ثبت‌نام کنید. حساب و اعتبار
+هوش مصنوعی در هر دو سایت یکی است: کلیدی را که در [بخش API اپ گیسو](https://gisoo.pro/app/api?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress&utm_content=install) ساخته‌اید (با `sk-gisoo-v1-` شروع
+می‌شود) در همین تنظیمات بگذارید؛ افزونه با آن هم کار می‌کند و هزینه از همان اعتبار کم می‌شود.
+
+گیسو برای کارهای بیرون از وردپرس هم به کارتان می‌آید: گفت‌وگو با بیش از ۴۰۰ مدل، ساخت تصویر، ویدیو، موسیقی و صدا،
+کارشناس‌های هوش مصنوعی و گفت‌وگوی صوتی زنده در [اپ گیسو](https://gisoo.pro/app?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress&utm_content=install). معرفی و نمونه‌کد: [netarz/gisoo](https://github.com/netarz/gisoo).
+
 ## هزینه
 
 خود افزونه رایگان و متن‌باز است. هر درخواست هوش مصنوعی به اندازهٔ مصرف واقعی از اعتبار حساب نِت اَرز شما کم می‌شود. فهرست مدل‌ها و قیمت هر کدام در [netarz.ir/ai-api/models](https://netarz.ir/ai-api/models) آمده و در تنظیمات افزونه هم کنار هر مدل دیده می‌شود. مدل هر بخش (چت، تیکت، نویسنده، تصویر، متن جایگزین) را جدا انتخاب می‌کنید.
@@ -104,3 +113,5 @@ Requirements: WordPress 6.0+, PHP 7.4–8.4. WooCommerce optional. License: GPL-
 Landing page: https://netarz.ir/ai-api/wordpress?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress — full guide (Persian): https://netarz.ir/docs/ai/wordpress?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress
 
 Install: activate the plugin, create a project key at [netarz.ir/ai](https://netarz.ir/ai), paste it in **AI → Settings**, then enable the chat widget.
+
+A key made in [Gisoo](https://gisoo.pro/?utm_source=github&utm_medium=referral&utm_campaign=netarz-ai-wordpress&utm_content=english) (`sk-gisoo-v1-…`), NetArz's AI brand, works too: the account and AI credit are shared. Gisoo also offers a Persian AI app (chat with 400+ models, image, video, music and voice, expert assistants, live voice) and an OpenAI/Anthropic-compatible API: [netarz/gisoo](https://github.com/netarz/gisoo).
